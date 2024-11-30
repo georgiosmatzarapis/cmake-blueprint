@@ -1,0 +1,24 @@
+parse:
+  additional_commands:
+    foo:
+      flags:
+      - BAR
+      - BAZ
+      kwargs:
+        DEPENDS: '*'
+        HEADERS: '*'
+        SOURCES: '*'
+  override_spec: {}
+format:
+  disable: false
+  line_width: 100
+  tab_size: 2
+  max_pargs_hwrap: 3
+  separate_ctrl_name_with_space: true
+  separate_fn_name_with_space: false
+  line_ending: "unix"
+  enable_sort: true
+markup:
+  bullet_char: '*'
+  enum_char: .
+  enable_markup: false
